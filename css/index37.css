@@ -1,0 +1,165 @@
+/*
+* @Author: dell
+* @Date:   2017-10-10 10:18:08
+* @Last Modified by:   dell
+* @Last Modified time: 2017-10-19 17:33:53
+*/
+@import url('base.css');
+.toubu{
+	width: 100%;
+	height: 1.44rem;
+	background: #fff;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content:space-around;
+}
+.suosukuang{
+	width: 8.68rem;
+	height: 0.9rem;
+	border: 0 ;
+	background: #f7f7f7;
+	border-radius: 5rem;
+	padding-left: 0.32rem;
+
+}
+.suosukuang:focus{
+	outline: 0;
+}
+.dan .shang{
+	padding-top: 1.7rem;
+	font-size: 0.42rem;
+	margin-left: 0.31rem;
+	padding-bottom: 0.23rem;
+
+}
+.dan ul{
+	overflow: hidden;
+}
+.dan ul li{
+	float: left ;
+	width:1.7rem;
+	height: 2.51rem;
+	/* background: red;  */
+	margin-bottom: 0.22rem;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+.dan ul li .tu{
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 0 auto;
+	margin-top: 0.06rem;
+}
+.dan ul li .zi{
+	display: block;
+	font-size: 0.4rem;
+	text-align: center;
+	margin-top: 0.36rem;
+	color: #000;
+}
+.jing .shang1{
+	height: 0.46rem;
+	/* background: red; */
+	padding: 0.38rem 0;
+	border-top: 0.26rem solid #f3f3f3;
+	font-size: 0.46rem;
+	text-align: center;
+}
+nav{
+	display: flex;
+	width: 100%;
+	line-height:1.16rem;
+	height: 1.16rem;
+	justify-content: space-around;
+	border-bottom:0.01rem solid #dedbde;
+}
+nav a{
+	text-align: center;
+	width: 2.72rem;
+}
+nav a:nth-child(1){
+	border-bottom: 0.04rem solid #ff5573;
+}
+h1{
+	font-size: 0.4rem;
+	color: #424142;
+}
+h2{
+	font-size: 0.4rem;
+	color:#5a7594;
+	line-height: 1.5rem;
+}
+main{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	/* margin-bottom: 1.47rem; */
+}
+main ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding:0 0.08rem;	
+}
+main ul li {
+	width: 5rem;
+	height: 8.94rem;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 0.15rem;
+	margin-top: 0.36rem;
+	margin-left: 0.16rem;
+	margin-right: 0.16rem;
+}
+.imgbox{
+	width: 100%;
+	height: 6.68rem;
+}
+
+.textbox1{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding:0 0.26rem;
+	width: 100%;
+	height: 1.08rem;
+	overflow: hidden;
+}
+.textbox1 a{
+	margin-left: 0.15rem;
+	height: 0.5rem;
+	background-color: #eff3f7;
+	font-size: 0.3rem;
+	color: #5a6d84;
+}
+
+h3{
+	color: red;
+	line-height:0.44rem;
+	font-size: 0.34rem;
+}
+.textbox2{
+	width:100%;
+	height: 0.44rem;
+	display:flex;
+	padding:0 0.26rem;
+	justify-content: space-between;
+	color:black;
+}
+
+.footicf6{
+	width: 1.34rem;
+	height: 100%;
+	line-height:0.44rem;
+	font-size: 0.28rem;
+	color:#636563;
+	 
+}
+.footicf6 .iconfont{
+	font-size: 0.28rem;
+}
